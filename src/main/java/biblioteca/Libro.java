@@ -1,14 +1,28 @@
 package biblioteca;
 
+/**
+ * Clase que implementa los libros dentro de una biblioteca.
+ * Cada libro tiene titulo, autor y año de publicacion.
+ *
+ * @author Pablo Garrido Lopez
+ * @version 7.03.25
+ */
+
 public class Libro {
 
-    // TODO: Documentar estos atributos
     private String titulo;
     private String autor;
     private int anioPublicacion;
 
 
-    // TODO: Documentar este método
+    /**
+     * Constructor que inicializa un libro.
+     * Incluye su autor, su titulo y su año de publicacion.
+     *
+     * @param titulo
+     * @param autor
+     * @param anioPublicacion
+     */
     // TODO: Testear este método
     public Libro(String titulo, String autor, int anioPublicacion) {
         this.titulo = titulo;
@@ -24,7 +38,11 @@ public class Libro {
         this.titulo = titulo;
     }
 
-    // TODO: Documentar este método
+    /**
+     * Metodo para obtener el autor de un libro.
+     *
+     * @return autor del libro.
+     */
     public String getAutor() {
         return autor;
     }
@@ -33,7 +51,11 @@ public class Libro {
         this.autor = autor;
     }
 
-    // TODO: Documentar este método
+    /**
+     * MEtodo para obtener el año de publicacion de un libro.
+     *
+     * @return anioPublicacion que es el año de publicacion del libro.
+     */
     public int getAnioPublicacion() {
         return anioPublicacion;
     }
